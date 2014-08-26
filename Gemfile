@@ -16,6 +16,7 @@ group :development, :test do
 
   gem 'diff_matcher'
 
-  gem 'jazz_hands'
-  gem 'binding_of_caller'
+  # https://github.com/nixme/jazz_hands/issues/25
+  gem 'jazz_hands', github: 'nixme/jazz_hands', branch: 'bring-your-own-debugger'
+  gem 'pry-byebug'   # This may or may not work with 2.1.2 either, so remove if you still get errorrs
 end
