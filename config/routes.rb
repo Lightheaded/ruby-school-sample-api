@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-  get 'countries_/:code' => 'countries#show'
+  namespace :api do
+    namespace :v1 do
+      get 'countries/:code' => 'countries#show'
+    end
+  end
 end

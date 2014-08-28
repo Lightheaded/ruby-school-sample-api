@@ -1,4 +1,8 @@
-1. Schema:
+1. Get data on a particular country
+
+2. Get data on a different country
+
+3. Schema:
  {
   code: 'EE',
   name: 'Eestonia',
@@ -11,5 +15,5 @@
   currency: 'eur'
 }
 
-2. API endpoints:
+4. API endpoints:
   1. GET /api/v1/countries/ee.json
