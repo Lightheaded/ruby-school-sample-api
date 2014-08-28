@@ -1,5 +1,15 @@
-== Boilerplate for Ruby School
+1. Schema:
+ {
+  code: 'EE',
+  name: 'Eestonia',
+  is_in_eu, true,
+  continent: 'Europe',
+  vat: 0.2,
+  calling_code: '+372',
+  default_language: 'et',
+  flag_url: 'flagapis.org/et.png',
+  currency: 'eur'
+}
 
-Start developing RESTfull API through TDD starting from here.
-
-All tools are in place.
+2. API endpoints:
+  1. GET /api/v1/countries/ee.json
